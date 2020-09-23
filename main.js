@@ -55,7 +55,13 @@ function isMiddleSchoolTeacher(str, num){
   return str === "teacher" && num >= 6 && num <= 8; 
 }
 
-
+function notAnElementarySchoolAdministrator(level, role){
+  return level !== 'elementary' || role !== 'admin'; 
+}
+//  that takes in a school level (as a string) and a role (as a string) and 
+//returns whether they're NOT an elementary school administrator. 
+//(An elementary school teacher is not, nor is a middle school administrator. 
+//And an expert scuba diver most definitely is not.)
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
