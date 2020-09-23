@@ -1,9 +1,59 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+function moreThan5(num){
+  return num > 5;
+  }
+  let result1 = moreThan5();
+  result1;
 
+function isNewTopScore(num1, num2){
+  return num1 > num2;
+}
 
+function isInDanger(num){
+  return num >= 60 && num <= 71;
+}
 
+function isCoasting(num){
+  return num >= 72 && num <= 83;
+}
+
+function isSucceeding(num){
+  return num >= 84 && num <= 92;
+}
+
+function isFailing(num){
+  return num < 60;
+}
+
+function isAcing(num){
+  return num > 92;
+}
+
+function isStudent(occupation){
+  return occupation === "student";
+}
+
+function isTeacher(jobTitle){
+  return jobTitle === "teacher";
+}
+
+function isAdmin(str){
+  return str === "admin";
+}
+
+function isElementary(schoolLevel){
+  return schoolLevel === "elementary";
+}
+
+function areDifferentPeople(name1, name2){
+  return name1 !== name2;
+}
+
+function isMiddleSchoolTeacher(str, num){
+  return str === "teacher" && num >= 6 && num <= 8; 
+}
 
 
 /********************************************************************************************
